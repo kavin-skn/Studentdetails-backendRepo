@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.StackApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.772 s <<< FAILURE! - in com.example.demo.StackApplicationTests
+com.example.demo.StackApplicationTests  Time elapsed: 0.769 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.demo.FullstackApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\kavin\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\stack\target\classes\com\example\demo\FullstackApplication.class], Generic bean: class [com.example.demo.StackApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [C:\Users\kavin\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\stack\target\classes\com\example\demo\StackApplication.class]]
+
